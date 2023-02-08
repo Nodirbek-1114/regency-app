@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CDN play -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- fonts -->
+  <!-- <link rel="stylesheet" href="./styles/extra.css"> -->
+  <link rel="stylesheet" href="./styles/main.css">
+  <!-- fonts awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>Agency-app</title>
+</head>
+
+<body>
+  <!-- header start -->
+  <header>
+    <div class="container max-w-[1260px] w-auto mx-auto">
+      <nav class="nav flex justify-between items-center p-3 mt-[54px]">
+        <a href="#" class="nav__logo">
+          <img src="./images/Logo.svg" alt="logo">
+        </a>
+
+        <ul class="nav__ul flex items-center justify-between w-4/12 text-#303948 text-base font-medium leading-6">
+          <li class="nav__ul--list">
+            <a href="#" class="nav__ul--list-link">About</a>
+          </li>
+          <li class="nav__ul--list">
+            <a href="#" class="nav__ul--list-link">Services</a>
+          </li>
+          <li class="nav__ul--list">
+            <a href="#" class="nav__ul--list-link">Client</a>
+          </li>
+          <li class="nav__ul--list">
+            <a href="#" class="nav__ul--list-link">Blog</a>
+          </li>
+          <li class="nav__ul--list">
+            <a href="#" class="nav__ul--list-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__menu hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <main>
+    <!-- hero start -->
+    <section class="hero mt-8">
+      <div class="container max-w-[1260px] mx-auto">
+        <div
+          class="hero-wrapper pt-[216px] pl-[76px] bg-orange-700 bg-[url('./src/images/hero-back.jpg')]  h-[707px] rounded-[35px] bg-no-repeat bg-cover relative">
+          <div class="hero__text">
+            <h1 class="text-white font-bold text-[50px] leading-[71px] max-w-[451px]">Go digital with us</h1>
+            <p class="text-white mt-[18px] mb-[10px] font-normal text-lg max-w-[471px]">We have designed hundreds of
+              websites and helped improve their online performance through SEO, SEM and Social Media Marketing</p>
+            <button type="submit"
+              class="font-medium text-[22px] lead-[31px] px-[53px] py-[18px] rounded-[35px] bg-[#FAFAFA]">See
+              Portofolio</button>
+          </div>
+          <img src="./images/business-hero.png" alt="business man" class="absolute right-0 top-0">
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- about start -->
+    <section class="about">
+      <div class="container max-w-[1260px] mx-auto">
+        <div
+          class="about-wrapper relative top-[-83px] bg-[#14213D] bg-[url('./src/images/Vector.jpg')] max-w-[1039px] text-white mx-auto pl-[45px] rounded-[35px] pt-[97px] pr-[60px] pb-[46px]">
+          <h2 class="about__title max-w-[365px] font-medium text-[36px] leading-[51px]">We are experienced</h2>
+          <p class="about__text max-w-[934px] mt-[29px] mb-[3px] font-normal text-lg text-white">We have been around for
+            a long time since 2010, thousands of products have been created, we are always here to provide new
+            innovations for you</p>
+          <span class="block ml-[860px]"><img src="./images/Arrow.svg" alt="arrow icon"></span>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- client start -->
+    <section class="client">
+      <div class="container max-w-[1260px] mx-auto">
+        <div class="client-wrapper flex flex-col items-center">
+          <h2 class="client__title text-[#303948] font-medium text-[36px] leading-[51px]">Client</h2>
+          <p class="client__text text-[#303948] font-normal text-lg mt-6 mb-11">Using Our Experience To Make Your
+            Digital Experience Brighter</p>
+          <div class="client__socials flex items-center gap-7">
+            <a href="#"><img src="./images/microsoft.svg" alt="microsoft icon"></a>
+            <a href="#"><img src="./images/google.svg" alt="google icon"></a>
+            <a href="#"><img src="./images/amazon.svg" alt="amazon icon"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- client end -->
+
+    <!-- services start -->
+    <section class="services mt-28">
+      <div class="container max-w-[1260px] mx-auto">
+        <div class="services-wrapper flex gap-[76px] relative">
+          <div class="services__left shadow-[0px 25px 50px rgba(0, 0, 0, 0.15)] rounded-[35px]">
+            <img src="./images/Ellipse.png" alt="Ellipse" class="absolute top-[390px] left-[-30px]">
+            <img src="./images/dot-services.png" alt="dots" class="absolute top-[-45px] left-[413px]">
+            <img src="./images/services.png" alt="services" class="">
+          </div>
+          <div class="services__right mt-6">
+            <p class="font-normal text-lg text-[#303948] mb-[14px]">Who We Help</p>
+            <h2
+              class="services__right--title mb-[14px] font-medium text-[36px] leading-[51px] text-[#14213D] max-w-[615px]">
+              Specific challenges require specific solutions</h2>
+            <p class="font-normal text-lg text-[#59616D]">Some of the industries our digital agency specialises in</p>
+            <div class="services__right--box mt-[74px] grid grid-cols-2 gap-x-[76px] gap-y-[88px]">
+              <div class="card max-w-[251px] p-2">
+                <div class="card__top flex items-center gap-[23px] mb-[18px]">
+                  <img src="./images/web.svg" alt="web app">
+                  <h2 class="card__title font-medium text-[#303948] text-base">Web & Mobile Apps</h2>
+                </div>
+                <p class="card__text font-normal text-lg text-[#59616D]">Lorem ipsum dolor sit<br> amet, consectetur<br>
+                  adipiscing elit.</p>
+              </div>
+              <div class="card max-w-[251px] p-2">
+                <div class="card__top flex items-center gap-[23px] mb-[18px]">
+                  <img src="./images/web.svg" alt="web app">
+                  <h2 class="card__title font-medium text-[#303948] text-base">Design Services</h2>
+                </div>
+                <p class="card__text font-normal text-lg text-[#59616D]">Lorem ipsum dolor sit<br> amet, consectetur<br>
+                  adipiscing elit.</p>
+              </div>
+              <div class="card max-w-[251px] p-2">
+                <div class="card__top flex items-center gap-[23px] mb-[18px]">
+                  <img src="./images/web.svg" alt="web app">
+                  <h2 class="card__title font-medium text-[#303948] text-base">SEO</h2>
+                </div>
+                <p class="card__text font-normal text-lg text-[#59616D]">Lorem ipsum dolor sit<br> amet, consectetur<br>
+                  adipiscing elit.</p>
+              </div>
+              <div class="card max-w-[251px] p-2">
+                <div class="card__top flex items-center gap-[23px] mb-[18px]">
+                  <img src="./images/web.svg" alt="web app">
+                  <h2 class="card__title font-medium text-[#303948] text-base">Security Tester</h2>
+                </div>
+                <p class="card__text font-normal text-lg text-[#59616D]">Lorem ipsum dolor sit<br> amet, consectetur<br>
+                  adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services end -->
+
+    <!-- process start -->
+    <section class="process">
+      <div class="container max-w-[1260px] mx-auto">
+        <div class="process-wrapper mt-[74px] flex gap-[123px] justify-around">
+          <div class="process__left">
+            <h2 class="process__title font-medium text-[36px] leading-[51px] mb-[52px]">How does our process work?</h2>
+            <p class="process__text max-w-[485px] font-normal text-lg mb-[60px]">Lorem ipsum dolor sit amet, consectetur
+              adipiscing<br> elit, sed do eiusmod tempor
+              incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis<br> nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex<br> ea commodo consequat.
+            </p>
+            <button type="submit"
+              class="btn bg-[#14213D] rounded-[35px] font-medium text-2xl px-[69px] py-[18px] text-[#FAFAFA]">See
+              Details</button>
+          </div>
+
+          <div class="process__right grid grid-cols-2 gap-[22px]">
+            <img src="./images/process1.png" alt="work">
+            <img src="./images/process2.png" alt="work"
+              class="after:content-[url('./src/images/process-ellipse.png')] after:block">
+            <img src="./images/process3.png" alt="work">
+            <img src="./images/process4.png" alt="work">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- process end -->
+
+    <!-- product start -->
+    <section class="product">
+      <div class="container max-w-[1260px] mx-auto mt-[141px]">
+        <div class="product py-[60px] pr-[71px] pl-8">
+          <div class="product__top flex justify-between mb-[94px]">
+            <div class="product__left flex flex-col gap-[14px] max-w-[615px]">
+              <p class="font-normal text-lg text-[#303948]">Our Product</p>
+              <h2 class="product__top--title font-medium text-[36px] leading-[51px] text-[#14213D]">We’ll let our work
+                speak for itself</h2>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+            </div>
+            <div class="product__top--right flex gap-10 items-end">
+              <img src="./images/arrow-left.svg" alt="arrow" class="p-[20.8px] bg-slate-500 rounded-[35px]">
+              <img src="./images/Arrow-product.svg" alt="arrow" class="p-[20.8px] bg-[#14213D] rounded-[35px]">
+            </div>
+          </div>
+          <div class="product__bottom flex gap-[107px]">
+            <div class="product__card text-center">
+              <img src="./images/abcde.png" alt="abcde">
+              <h2 class="product__card--title font-medium text-4xl mt-9 text-[#14213D]">PT. ABCDE</h2>
+              <p class="font-normal text-lg text-[#59616D] mt-[14px] mb-9">Web Development</p>
+              <button type="submit"
+                class="btn bg-[#14213D] rounded-[35px] font-medium text-2xl px-[69px] py-[18px] text-[#FAFAFA]">See
+                Details</button>
+            </div>
+            <div class="product__card text-center">
+              <img src="./images/wood.png" alt="abcde">
+              <h2 class="product__card--title font-medium text-4xl mt-9 text-[#14213D]">Rose Wood</h2>
+              <p class="font-normal text-lg text-[#59616D] mt-[14px] mb-9">Web Development</p>
+              <button type="submit"
+                class="btn bg-[#14213D] rounded-[35px] font-medium text-2xl px-[69px] py-[18px] text-[#FAFAFA]">See
+                Details</button>
+            </div>
+            <div class="product__card text-center">
+              <img src="./images/cospace.png" alt="abcde">
+              <h2 class="product__card--title font-medium text-4xl mt-9 text-[#14213D]">CoSpace</h2>
+              <p class="font-normal text-lg text-[#59616D] mt-[14px] mb-9">Web Development</p>
+              <button type="submit"
+                class="btn bg-[#14213D] rounded-[35px] font-medium text-2xl px-[69px] py-[18px] text-[#FAFAFA]">See
+                Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product end -->
+
+    <!-- testi start -->
+    <section class="testi">
+      <div class="container max-w-[1260px] mx-auto">
+        <div class="testi-wrapper mt-[106px] flex items-end gap-[41px]">
+          <img src="./images/testi-img.png" alt="testi man" class="w-[492px]">
+          <div class="testi__right">
+            <h3 class="testi__title text-4xl font-medium mb-[22px]">Testimonials by them</h3>
+            <p class="font-normal text-2xl max-w-[627px] mb-[136px]">Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. -Joe Z
+            </p>
+
+            <div class="product__top--right flex gap-10 justify-end">
+              <img src="./images/arrow-left.svg" alt="arrow" class="p-[20.8px] bg-[#14213D] rounded-[35px]">
+              <img src="./images/Arrow-product.svg" alt="arrow" class="p-[20.8px] bg-[#14213D] rounded-[35px]">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testi end -->
+  </main>
+
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="container mx-auto max-w-[1260px]">
+      <div class="footer-wrapper mt-[118px] bg-[url('.src/images/footer-back.png')] bg-rose-700 rounded-[35px] pt-[77px] pl-[27px]">
+        <div class="footer__top flex justify-between">
+          <ul class="footer__ul">
+            <li class="footer__list">
+              <a href="#" class="footer__link">
+                <img src="./images/footer-logo.svg" alt="logo">
+              </a>
+            </li>
+            <li class="footer__list my-8">
+              <a href="#" class="footer__link font-normal text-lg">
+                Go digital with us
+              </a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__link font-normal text-lg">
+                50 Raya Building<br> Call us: 123-456-678
+              </a>
+            </li>
+          </ul>
+          <div class="footer__left flex gap-[64px]">
+            <ul class="footer__ul">
+              <li class="footer__list">
+                <a href="#" class="footer__link font-bold text-xl text-[#14213D] mb-3">
+                  Company
+                </a>
+              </li>
+              <li class="footer__list mb-5">
+                <a href="#" class="footer__link font-normal text-xl text-[#14213D]">
+                  About
+                </a>
+              </li>
+              <li class="footer__list mb-5">
+                <a href="#" class="footer__link font-normal text-xl text-[#14213D]">
+                  Blog
+                </a>
+              </li>
+              <li class="footer__list">
+                <a href="#" class="footer__link font-normal text-xl text-[#14213D]">
+                  Gallery
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__ul">
+              <li class="footer__list">
+                <a href="#" class="footer__link font-bold text-xl text-[#14213D] mb-3">
+                  Social Media
+                </a>
+              </li>
+              <li class="footer__list mb-5">
+                <a href="#" class="footer__link font-normal text-xl text-[#14213D]">
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list mb-5">
+                <a href="#" class="footer__link font-normal text-xl text-[#14213D]">
+                  Instagram
+                </a>
+              </li>
+              <li class="footer__list">
+                <a href="#" class="footer__link font-normal text-xl text-[#14213D]">
+                  Twitter
+                </a>
+              </li>
+            </ul>
+            <div class="img">
+              <img src="./images/footer-dot.png" alt="dots">
+              <img src="./images/footer-after.png" alt="icon" class="relative top-[-120px] left-[-30px]">
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom mt-14 flex items-end gap-[504px] pb-8">
+          <p class="font-normal text-xl text-[#14213D]">Copyright © 2021 Steelthemes. All Rights Reserved.</p>
+          <div class="footer__bottom--img">
+            <img src="./images/footer-black.png" alt="black card">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+</body>
+
+</html>
